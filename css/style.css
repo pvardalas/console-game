@@ -1,0 +1,100 @@
+.terminal {
+    --size: 1.5;
+    font-family: monospace;
+    --color: lime;
+}
+.greeting1 {
+    width: 15ch;
+    animation: typing .75s steps(15), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;
+    
+}
+.greeting2 {
+    width: 23ch;
+    animation: typing 1.15s steps(23), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;
+}
+.greeting3 {
+    width: 56ch;
+    animation: typing 2.8s steps(56), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;
+}
+.greeting4 {
+    width: 26ch;
+    animation: typing 1.3s steps(26), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;
+}
+.msg1 {
+    width: 11ch;
+    animation: typing .55s steps(11), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;    
+}
+.msg2 {
+    width: 90ch;
+    animation: typing 4.5s steps(90), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;    
+}
+.msg3 {
+    width: 83ch;
+    animation: typing 4.15s steps(83), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;    
+}
+.msg4 {
+    width: 84ch;
+    animation: typing 4.2s steps(84), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;    
+}
+.msg5 {
+    width: 10ch;
+    animation: typing .5s steps(10), blink .5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid;    
+}
+.error {
+    color: red;
+    /* white-space: nowrap;
+    overflow: hidden;
+    border-right: 12px solid; */
+}
+
+.folder {
+    color: rgb(80, 80, 255);
+}
+.file, .SuccessPass {
+    color: lime;
+}
+.executable, .special, .failedPass {
+    color: red;
+}
+.plaintext {
+    color: gray;
+    font-style: bold;
+}
+@keyframes typing {
+    from {
+      width: 0
+    }
+}
+      
+@keyframes blink {
+    50% {
+        border-color: transparent
+    }
+}
